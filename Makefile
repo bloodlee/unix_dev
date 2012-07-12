@@ -4,7 +4,7 @@ CFLAG =
 
 CC = g++
 
-TARGETS = my_ls
+TARGETS = my_ls stdin_out pid try_pid
 
 %: %.cpp
 	@echo "Build $@..."
